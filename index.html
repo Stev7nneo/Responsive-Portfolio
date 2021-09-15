@@ -19,6 +19,9 @@
     <!-- Argon CSS -->
     <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
     <!-- Personal Styling -->
     <link rel="stylesheet" href="css/style.css">
     
@@ -29,7 +32,7 @@
 
     <header class="header" id="header">
         <nav class="nav container navbar-expand-lg">
-          <a href="#" class="nav__logo navbar-brand ml-3">Julio Bravo</a>
+          <a href="#" class="nav__logo navbar-brand ml-3">Julio Steven Bravo Saenz</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -83,13 +86,13 @@
 
               <div class="home__content grid">
                   <div class="home__social">
-                      <a href="" target="_blank" class="home__social-icon" id="myLinkedIn">
+                      <a href="https://www.linkedin.com/in/julio-steven-bravo-saenz-20ba7a21b" target="_blank" class="home__social-icon" id="myLinkedIn">
                           <i class="uil uil-linkedin-alt"></i>
                       </a>
-                      <a href="" target="_blank" class="home__social-icon" id="myInstagram">
-                          <i class="uil uil-instagram"></i>
+                      <a href="https://www.youtube.com/channel/UCZfIBRnGajDCh9zbx6yVuZQ" target="_blank" class="home__social-icon" id="myYoutube">
+                          <i class="uil uil-youtube"></i>
                       </a>
-                      <a href="" target="_blank" class="home__social-icon" id="myGithub">
+                      <a href="https://github.com/Stev7nneo" target="_blank" class="home__social-icon" id="myGithub">
                           <i class="uil uil-github-alt"></i>
                       </a>
                   </div>  
@@ -97,9 +100,9 @@
 
               <div class="home__data">
                   <small class="home_welcome s-color">Welcome to my Portfolio Website!</small>
-                  <h1 class="home__title">Hey I'm</h1>
+                  <h1 class="home__title">Hey! I'm</h1>
                   <div id="typewriter" class="Typewriter"></div>
-                  <h3 class="home__subtitle" id="home-bio">An engineer enthusiast about technology and web development. Passionate on learning new. Enjoy develop videogames.</h3>
+                  <h3 class="home__subtitle" id="home-bio">A graduated engineer enthusiast about technology, the data and web development. Passionate on learning new.</h3>
                   <a href="#contact" class="button button--flex">
                       Contact Me <i class="uil uil-message button__icon"></i>
                   </a>
@@ -115,45 +118,531 @@
             </div>
       </section>
 
-    <!-------------------- ABOUT ME------------------------>
+    <!-------------------------------------- ABOUT ME--------------------------------------->
 
       <section class="about section" id="about">
+          <h2 class="section__title">About me</h2>
+          <span class="section__subtitle">My Introduction</span>
 
+          <div class="about__container container grid">
+              <img src="img/me.jpg" alt="my photo" class="about__img">
+              <div class="about__data">
+                  <p class="about__description" id="home-about">
+                    I am a web developer and junior data analyst with a great passion for new solutions, working with current technologies and software methodologies. Innovative, self-taught, creative and perseverant. Also, in my free times I enjoy to develop videogames in Unity. Professionally I am graduated in Systems and IT Engineer as well.
+                  </p>
+              </div>
+          </div>
       </section>
 
-    <!-------------------- SKILLS ------------------------>
+    <!--------------------------------------- SKILLS ---------------------------------------->
 
       <section class="skill section" id="skills">
+        <h2 class="section__title"> Skillset </h2>
+        <span class="section__subtitle"> My skillsets </span>
 
+        <div class="skills__container container grid">
+            <div class="row" id="skillset_container">
+
+                <!-- Skill 1 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631673569/logos/html5-without-wordmark-color_khco4b.svg" alt="HTML logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> HTML </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631673732/logos/CSS3_logo.svg_cpzeen.png" alt="CSS logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> CSS </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631673823/logos/javascript-seeklogo.com_phfucb.svg" alt="Javascript logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Javascript </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 4 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631673977/logos/bootstrap-seeklogo.com_xmulag.svg" alt="Bootstrap logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Bootstrap </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631673181/logos/php-seeklogo.com_amep9y.svg" alt="PHP logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> PHP </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631674148/logos/laravel-seeklogo.com_wfda7y.svg" alt="Laravel logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Laravel </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 7 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631674257/logos/python-seeklogo.com_zwq8mx.svg" alt="Python logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Python </h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill 8 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631674692/logos/power-bi_bg6de7.svg" alt="PowerBI logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> PowerBI </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 9 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631674965/logos/excel-4_rnrl7f.svg" alt="Excel logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Excel </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 10 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675070/logos/word-1_dg7cxf.svg" alt="Word logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Word </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 11 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675070/logos/powerpoint-2_ppbcsw.svg" alt="PowerPoint logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> PowerPoint </h2>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Skill 12 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631676927/logos/GoogleWorkspace_2020_xn48jq.svg" alt="Google Workplace logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Workplace </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 13 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675369/logos/mysql-6_scp5no.svg" alt="MYSQL logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> MYSQL </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 14 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675490/logos/firebase-seeklogo.com_r7o8ik.svg" alt="Firebase logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Firebase </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 15 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675853/logos/azure-1_bumigm.svg" alt="Azure logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Azure </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 16 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675982/logos/oracle-seeklogo.com_par8gn.svg" alt="Oracle Cloud logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Oracle Cloud </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 17 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631675853/logos/aws-2_lyuayh.svg" alt="AWS logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> AWS </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 18 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631676156/logos/git-icon_b5ef0c.svg" alt="Git logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Git </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 19 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631676156/logos/github-icon_pd2lyk.svg" alt="Github logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Github </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 20 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631676156/logos/visual-studio-code-1_fonchl.svg" alt="VS Code logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> VS Code </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 21 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631680228/logos/c-sharp-c-seeklogo.com_ipxwaj.svg" alt="C# logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> C# </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 22 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631680450/logos/unity-69_cp8qye.svg" alt="Windows logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Unity </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 23 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631680538/logos/windows-server-2_upjcpq.svg" alt="Windows Server logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2>Windows Server </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Skill 24 -->
+                <div class="skills__container-card">
+                    <div class="card_skill shadow2">
+                        <div class="imgBx">
+                            <img src="https://res.cloudinary.com/bjha/image/upload/v1627831745/skillset%20logos/tux-seeklogo.com_aiyr1d.svg" alt="Linux logo">
+                        </div>
+                        <div class="contentBx">
+                            <h2> Linux </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
 
-    <!-------------------- PORTFOLIO ------------------------>
+    <!--------------------------------------- PORTFOLIO -------------------------------------->
 
       <section class="portfoliosection" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle"> My most recent works </span>
 
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    
+                    <!-- For portfolio item 1 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631740184/portafolio%20proyectos/cafe_ndbigw.jpg" alt="Twitter type SNS ">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> July 2021</span>
+                            <div class="blog-slider__title"> Blog de Café </div>
+                            <div class="blog-slider__text"> Designed a blog to know more about coffee and learn with courses.</div>
+                            <a href="https://blog-cafecito.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 2 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631740249/portafolio%20proyectos/barberia_oekmhk.jpg" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> December 2020</span>
+                            <div class="blog-slider__title"> App Barberia </div>
+                            <div class="blog-slider__text"> Designed an app to Barberia to reserved appointments in real time and see the list with the cost.” </div>
+                            <a href="https://granbarberia.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 3 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631740251/portafolio%20proyectos/bienesraices_we5zsf.jpg" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> March 2021</span>
+                            <div class="blog-slider__title"> Bienes Raices </div>
+                            <div class="blog-slider__text"> Designed a front-end for bienes raices app.</div>
+                            <a href="https://appbienesraices.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 4 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="https://res.cloudinary.com/stneo777/image/upload/v1631741160/portafolio%20proyectos/robotini_sjahim.jpg" alt="Portfolio item">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> May 2021</span>
+                            <div class="blog-slider__title"> Robotini Adventure </div>
+                            <div class="blog-slider__text"> Design a Videogame 3D.</div>
+                            <a href="https://www.youtube.com/watch?v=2YUynd597H4" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
       </section>
 
-    <!-------------------- CONTACT US ------------------------>
+    <!---------------------------------------- CONTACT US ------------------------------------->
 
       <section class="contact section" id="contact">
+        <h2 class="section__title"> Contact Me </h2>
+            <span class="section__subtitle"> Get in touch</span>
 
+            <div class="row mt-lg-6 justify-content-center contact_mail">
+                <!-- Contact information -->
+                <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+51 935 653 782</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">juliosbravo07@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-location-pin-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__subtitle"> Huancayo - Peru</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+                    <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+                    <form id="form" action="https://formspree.io/f/xoqyrejb" method="POST" class="cf">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="name" required class="form-control form__color mb-30 transparent_card cf" placeholder="Your Name">
+                            </div> 
+                            <div class="col-lg-6">
+                                <input type="email" name="_replyto" required class="form-control form__color mb-30 cf" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input type="tel" name="phone" required class="form-control form__color mb-30 cf" placeholder="phone">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" required class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="button button--flex send-message form_button">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="mailto:juliosbravo07@gmail.com" id="Momentaneo"></a>
+                </div>
+            </div>
       </section>
     </main>
 
-<!--------------------- FOOTER ----------------------->
+<!--------------------------------------------- FOOTER ----------------------------------------->
     <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
 
+            <div>
+                <h1 class="footer__title"> JULIO STEVEN BRAVO SAENZ </h1>
+                <span class="footer__subtitle"> Graduated in Systems and IT Engineering.</span>
+            </div>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link"> About Me</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="footer__link"> My Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="footer__link"> Contact Me</a>
+                </li>
+            </ul>
+
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/julio-steven-bravo-saenz-20ba7a21b" target="_blank" class="footer__social" id="myLinkedIn">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCZfIBRnGajDCh9zbx6yVuZQ" target="_blank" class="footer__social" id="myYoutube">
+                    <i class="uil uil-youtube"></i>
+                </a>
+
+                <a href="https://github.com/Stev7nneo" target="_blank" class="footer__social" id="myGithub">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Julio Steven Bravo Saenz. All rights reserved.</p>
+    </div>
     </footer>
 
+<!--------------------------------------------- SCROLL TOP ----------------------------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
 
 
 
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
-
+ 
     <!-- Core -->
     <script src="js/core/jquery.min.js"></script>
     <script src="js/core/popper.min.js"></script>
@@ -165,7 +654,34 @@
     <!-- Typewriter CSS effect-->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
+    <!-- Swiper JS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <!-- Self Script -->
     <script src="js/script.js"></script>
+
+    <!-- Mail momertaneo -->
+    <script>
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if (response.ok) {
+                this.reset()
+                alert('Thank you for contacting me, I will write you soon. (Gracias por contactarme, te escribiré pronto) :D')
+            }
+        }
+    </script>
+
   </body>
 </html>
